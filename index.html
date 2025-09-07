@@ -218,7 +218,7 @@
             <h3 align="center">临时停靠 请多关照</h3>
             <div class="message-area">
                 <textarea id="messageInput" placeholder="请输入微信通知内容"
-                    oninput="updateCharCount()">您好，有人需要您挪车，请及时处理。</textarea>
+                    oninput="updateCharCount()">主人，有人喊你挪车，赶紧回来处理。</textarea>
                 <div id="tips" style="color: #666666; font-size: 1rem;">可自行编辑通知内容，带来不便，请您见谅</div>
                 <div id="charCount" class="char-count">0/200</div>
             </div>
@@ -241,7 +241,7 @@
             updateCharCount();
             const charCountEl = document.getElementById('charCount');
             const templates = {
-                default: "您好，有人需要您挪车，请及时处理。",
+                default: "主人，有人喊你挪车，赶紧回来处理。",
                 polite: "您好，很抱歉打扰您。您的爱车可能影响到他人通行，请问方便移动一下吗？",
                 urgent: "紧急情况！您的车辆阻碍消防通道，请立即挪车！"
             };
